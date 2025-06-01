@@ -5,7 +5,7 @@ Este projeto é um esboço de um **CRUD genérico em Java 1.8**, usando `JDBC` p
 
 ---
 
-## 🧱 Estrutura de Diretórios 
+## Estrutura de Diretórios 
 
 ```
 src/
@@ -33,7 +33,7 @@ src/
 
 ---
 
-## 🧠 Camadas da Aplicação
+## Camadas da Aplicação
 
 - **Model:** Representa as entidades (tabelas).
 - **DAO:** Responsável por executar comandos SQL.
@@ -43,7 +43,7 @@ src/
 
 ---
 
-## ⚙️ Como Funciona
+## Como Funciona
 
 ### `GenericDAO<T>`
 
@@ -66,7 +66,7 @@ Simula uma execução da aplicação (pode ser substituído por REST futuramente
 
 ---
 
-## 💡 Exemplo de Uso
+## Exemplo de Uso
 
 ```java
 PessoaFisica pf = new PessoaFisica();
@@ -80,7 +80,7 @@ pessoas.forEach(p -> System.out.println(p.getNome()));
 
 ---
 
-## 🧪 Próximos Passos
+## Próximos Passos
 
 - Adicionar validações no `Service`
 - Criar testes unitários com JUnit
@@ -89,7 +89,7 @@ pessoas.forEach(p -> System.out.println(p.getNome()));
 
 ---
 
-## 📂 Conexão com o Banco
+## Conexão com o Banco
 
 Precisa de uma `ConnectionFactory.java`:
 
@@ -103,7 +103,7 @@ public class ConnectionFactory {
 
 ---
 
-## 📌 Observações
+## Observações
 
 Este projeto é uma base modular. Ele pode ser facilmente expandido para suportar:
 - Outras tabelas com mapeamento simples
